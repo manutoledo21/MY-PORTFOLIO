@@ -1,0 +1,13 @@
+.footer {
+  background-color: var(--second-color);
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+  padding: 1rem 0;
+}
+.footer__text p,
+.footer__copyright p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

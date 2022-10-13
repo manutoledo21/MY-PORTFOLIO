@@ -1,0 +1,32 @@
+.projects {
+  text-align: center;
+}
+.projects__container {
+  row-gap: 2rem;
+}
+.projects__links {
+  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+  border-radius: 0.55rem;
+  overflow: hidden;
+  width: 350px;
+  height: 350px;
+  margin: 0 auto;
+}
+.projects__links img {
+  transition: 1s;
+  cursor: pointer;
+  width: 350px;
+  height: 230px;
+}
+.projects__links img:hover {
+  transform: scale(1.05);
+}
+.project__link-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.53rem;
+}
+.project__item {
+  padding: 0 1rem;
+}

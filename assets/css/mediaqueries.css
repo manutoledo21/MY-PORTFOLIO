@@ -1,0 +1,134 @@
+/* MEDIA QUERIES */
+@media screen and (min-width: 768px) {
+  body {
+    margin: 0;
+  }
+  .section {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+  }
+  .section-title {
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+  }
+  .section-title::after {
+    width: 80px;
+    top: 3rem;
+  }
+}
+/* Header */
+@media screen and (min-width: 768px) {
+  .nav {
+    height: 4.5rem;
+  }
+  .nav__list {
+    display: flex;
+    padding-top: 0;
+  }
+  .nav__item {
+    margin-left: 3rem;
+    margin-bottom: 0;
+  }
+  .nav__toggle {
+    display: none;
+  }
+  .nav__link {
+    color: var(--second-color);
+  }
+}
+/* Home */
+@media screen and (min-width: 768px) and (max-width: 920px) {
+  .home__img {
+    bottom: 10%;
+  }
+  .home__title {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .home {
+    padding: 8rem 0 0;
+  }
+  .home__title {
+    font-size: 3rem;
+  }
+  .home__data {
+    align-self: flex-end;
+  }
+  .home__social {
+    padding-top: 0;
+    flex-direction: row;
+    align-self: flex-end;
+  }
+  .home__social-icon {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    padding: 0 1rem;
+  }
+}
+@media screen and (min-width: 920px) {
+  .home__img {
+    width: 400px;
+    bottom: 10%;
+  }
+}
+/* About */
+@media screen and (min-width: 768px) {
+  .about__container {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about__content {
+    width: 50%;
+    height: 30%;
+  }
+  .about__img img {
+    width: 250px;
+    height: 250px;
+  }
+}
+/* Proyects */
+@media screen and (min-width: 768px) {
+  .projects__container {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    padding-top: 2rem;
+  }
+  .projects__links {
+    width: 350px;
+    height: 350px;
+    margin-bottom: 2rem;
+  }
+  .projects__links img {
+    width: 350px;
+    height: 230px;
+  }
+}
+/* Skills */
+@media screen and (min-width: 768px) {
+  .skills__name img {
+    width: 5rem;
+  }
+  .tools {
+    grid-template-columns: 15% 15% 15% 15%;
+    grid-template-rows: 7rem;
+    width: 80%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .contact__social {
+    width: 50%;
+    max-width: 500px;
+  }
+  .contact__email,
+  .contact__phone,
+  .contact__map {
+    justify-content: center;
+    padding-bottom: 0.5rem;
+  }
+  .icon-social {
+    padding-bottom: 1rem;
+  }
+}

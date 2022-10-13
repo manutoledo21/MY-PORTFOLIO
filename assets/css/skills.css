@@ -1,0 +1,24 @@
+.skills__container {
+  row-gap: 2rem;
+  text-align: center;
+}
+.skills__subtitle {
+  margin-bottom: 1rem;
+}
+.skills-title {
+  color: hsl(204, 100%, 70%);
+  font-size: 1.035rem;
+}
+.skills__names {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.tools {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 17.5% 17.5% 17.5% 17.5%;
+  grid-template-rows: 4rem 4rem;
+  justify-items: center;
+  margin: 0 auto;
+}

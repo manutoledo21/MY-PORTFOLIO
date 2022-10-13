@@ -1,0 +1,71 @@
+:root {
+  --poppins: 'Poppins', sans-serif;
+  /* --color-principal: #81da8b; */
+  /* --first-color: hsl(109, 100%, 80%); */
+
+  --first-color: hsl(204, 100%, 65%);
+
+  /* --first-color: #4070f4; */
+  /* --second-color: #00495c; 074f71ee*/
+  --toggle-color: hsla(202, 57%, 12%, 0.952);
+  /* --toggle-color: #074f71ee; */
+  --second-color: hsl(202, 56%, 12%);
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 3rem 0 0 0;
+  font-family: var(--poppins);
+  font-size: 0.938rem;
+  color: var(--second-color);
+}
+h1,
+h2,
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ---- */
+.section-title {
+  position: relative;
+  font-size: 1.25rem;
+  color: var(--first-color);
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.section-title::after {
+  position: absolute;
+  content: '';
+  width: 64px;
+  height: 0.18rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 2rem;
+  background-color: var(--first-color);
+}
+.section {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
