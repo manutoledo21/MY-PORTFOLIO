@@ -17,6 +17,7 @@
   cursor: pointer;
   width: 350px;
   height: 230px;
+  object-fit: contain;
 }
 .projects__links img:hover {
   transform: scale(1.05);
@@ -29,4 +30,8 @@
 }
 .project__item {
   padding: 0 1rem;
+  color: var(--second-color);
+}
+.project__item:hover {
+  color: var(--first-color);
 }

@@ -1,4 +1,4 @@
-.h-grid {
+/* .h-grid {
   max-width: 2560px;
   display: grid;
   grid-template-columns: 100%;
@@ -6,6 +6,16 @@
   width: calc(100% - 2rem);
   margin-left: 1rem;
   margin-right: 1rem;
+} */
+
+.h-grid {
+  max-width: 120rem;
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-column-gap: 2rem;
+  justify-content: center;
 }
 
 .header {

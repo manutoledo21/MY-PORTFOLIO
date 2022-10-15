@@ -37,6 +37,10 @@
   top: 2rem;
   background-color: var(--first-color);
 }
+.nav__link-es,
+.nav__link-en {
+  font-size: 0.9rem;
+}
 .nav__logo {
   color: var(--second-color);
 }

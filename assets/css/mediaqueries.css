@@ -1,5 +1,10 @@
 /* MEDIA QUERIES */
 @media screen and (min-width: 768px) {
+  .h-grid {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 768px) {
   body {
     margin: 0;
   }
@@ -35,9 +40,16 @@
   .nav__link {
     color: var(--second-color);
   }
+  .nav__link-es,
+  .nav__link-en {
+    font-size: 0.8rem;
+  }
+  .nav__link-en {
+    margin-left: -2rem;
+  }
 }
 /* Home */
-@media screen and (min-width: 768px) and (max-width: 920px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .home__img {
     bottom: 10%;
   }
@@ -50,7 +62,7 @@
     padding: 8rem 0 0;
   }
   .home__title {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .home__data {
     align-self: flex-end;
@@ -66,10 +78,10 @@
     padding: 0 1rem;
   }
 }
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 1024px) {
   .home__img {
     width: 400px;
-    bottom: 10%;
+    bottom: -8%;
   }
 }
 /* About */
@@ -104,6 +116,7 @@
   .projects__links img {
     width: 350px;
     height: 230px;
+    object-fit: contain;
   }
 }
 /* Skills */

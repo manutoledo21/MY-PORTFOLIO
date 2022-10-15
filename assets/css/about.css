@@ -10,6 +10,10 @@
 .about__subtitle {
   margin-bottom: 1rem;
 }
+.about__text {
+  text-align: center;
+  padding: 0 1rem;
+}
 .about__img {
   display: flex;
   justify-content: center;
