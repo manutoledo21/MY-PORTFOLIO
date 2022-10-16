@@ -5,6 +5,11 @@
   font-weight: 400;
   padding: 1rem 0;
 }
+.footer .link-github {
+  margin: 0 0.2rem;
+  color: var(--first-color);
+  text-decoration: none;
+}
 .footer__text p,
 .footer__copyright p {
   display: flex;
