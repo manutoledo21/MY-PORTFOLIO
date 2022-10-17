@@ -7,6 +7,7 @@
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link type="image/png" sizes="100x100" rel="icon" href="./assets/icon/icons8-rocket-32.png" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/header.css" />
@@ -48,7 +49,7 @@
 
     <main class="main">
       <section class="home h-grid" id="home">
-        <div class="home__data">
+        <div data-aos="fade-down" class="home__data">
           <h1 class="home__title">
             Hola, <br />
             Soy <span class="home__title-color">Manuel</span> <br />
@@ -58,11 +59,12 @@
             href="https://drive.google.com/file/d/1oMhljQ-ECGG-e1AZ7oUQeXLvKGFTku6u/view?usp=sharing"
             target="_blank"
             class="button"
+            data-aos="fade-right"
             >Ver CV</a
           >
         </div>
 
-        <div class="home__social">
+        <div data-aos="fade-right" class="home__social">
           <a href="https://www.linkedin.com/in/manutoledo/" target="_blank" class="home__social-icon"
             ><i class="bx bxl-linkedin"></i
           ></a>
@@ -77,20 +79,20 @@
           ></a>
         </div>
 
-        <div class="home__img">
+        <div data-aos="fade-left" class="home__img">
           <img src="./assets/img/profile/home-perfil.png" alt="" class="home__img-perfil" />
         </div>
       </section>
 
       <section class="about section" id="about">
-        <h2 class="section-title">Sobre Mi</h2>
+        <h2 data-aos="fade-down" class="section-title">Sobre Mi</h2>
 
-        <div class="about__container h-grid">
+        <div data-aos="zoom-in" class="about__container h-grid">
           <div class="about__img">
             <img src="./assets/img/profile/perfil2.png" alt="about-perfil" />
           </div>
 
-          <div class="about__content">
+          <div data-aos="zoom-in" class="about__content">
             <h2 class="about__subtitle">Soy Manuel Toledo</h2>
             <p class="about__text">
               Soy un apasionado por la programación, la música y el café. La disciplina, dedicación y compromiso son
@@ -102,11 +104,11 @@
         </div>
       </section>
 
-      <section class="projects section" id="projects">
+      <section data-aos="fade-down" class="projects section" id="projects">
         <h2 class="section-title">Proyectos</h2>
 
         <div class="projects__container h-grid">
-          <div class="projects__links">
+          <div data-aos="fade-right" class="projects__links">
             <a href="https://manueltoledo.netlify.app/" target="_blank"
               ><img src="./assets/img/projects/my.portfolio.png" alt=""
             /></a>
@@ -122,7 +124,7 @@
             </div>
           </div>
 
-          <div class="projects__links">
+          <div data-aos="fade-left" class="projects__links">
             <a href="https://landing-page-hunddle.netlify.app/" target="_blank"
               ><img src="./assets/img/projects/hunddle.png" alt=""
             /></a>
@@ -141,7 +143,7 @@
             </div>
           </div>
 
-          <div class="projects__links">
+          <div data-aos="fade-right" class="projects__links">
             <a href="https://search-your-car.netlify.app/" target="_blank"
               ><img src="./assets/img/projects/search-cars.png" alt=""
             /></a>
@@ -157,7 +159,7 @@
             </div>
           </div>
 
-          <div class="projects__links">
+          <div data-aos="fade-left" class="projects__links">
             <a href="https://simulacion-enviar-email.netlify.app/" target="_blank"
               ><img src="./assets/img/projects/email-simulator.png" alt=""
             /></a>
@@ -173,7 +175,7 @@
             </div>
           </div>
 
-          <div class="projects__links">
+          <div data-aos="fade-right" class="projects__links">
             <a href="https://manutoledo21.github.io/encriptador/" target="_blank"
               ><img src="./assets/img/projects/encriptador.png" alt=""
             /></a>
@@ -189,7 +191,7 @@
             </div>
           </div>
 
-          <div class="projects__links">
+          <div data-aos="fade-left" class="projects__links">
             <img src="./assets/img/projects/e-commerce.png" alt="" />
             <h4 class="project__title">E-commerce (en proceso)</h4>
 
@@ -202,12 +204,12 @@
       </section>
 
       <section class="skills section" id="skills">
-        <h2 class="section-title">Skills</h2>
+        <h2 data-aos="fade-down" class="section-title">Skills</h2>
 
         <div class="skills__container h-grid">
-          <div>
+          <div data-aos="fade-down">
             <h2 class="skills__subtitle">Mis lenguajes, frameworks, tecnologías y herramientas:</h2>
-            <div class="skills__data">
+            <div data-aos="fade-down" class="skills__data">
               <h3 class="skills-title">Lenguajes</h3>
               <div class="skills__names">
                 <a href="#" class="skills__name"><img src="./assets/icon/icons8-html-5.svg" alt="html" /></a>
@@ -216,14 +218,14 @@
               </div>
 
               <h3 class="skills-title">Frameworks</h3>
-              <div class="skills__names">
+              <div data-aos="fade-down" class="skills__names">
                 <a href="#" class="skills__name"><img src="./assets/icon/icons8-bootstrap.svg" alt="bootstrap" /></a>
                 <a href="#" class="skills__name"><img src="./assets/icon/icons8-sass.svg" alt="sass" /></a>
                 <a href="#" class="skills__name"><img src="./assets/icon/icons8-tailwind-css.svg" alt="tailwind" /></a>
               </div>
 
               <h3 class="skills-title">Tecnologías y Herramientas</h3>
-              <div class="skills__names tools">
+              <div data-aos="fade-down" class="skills__names tools">
                 <a href="#" class="skills__name"><img src="./assets/icon/icons8-git.svg" alt="git" /></a>
                 <a href="#" class="skills__name"><img src="./assets/icon/icons8-github.svg" alt="github" /></a>
                 <a href="#" class="skills__name"><img src="./assets/icon/icons8-npm.svg" alt="npm" /></a>
@@ -241,9 +243,11 @@
       </section>
 
       <section class="contact h-grid" id="contact">
-        <h2 class="section-title">Contacto:</h2>
-        <p class="contact__text">Llámame, escríbeme un e-mail, o conecta y escríbeme en Linkedin.</p>
-        <div class="contact__social">
+        <h2 data-aos="fade-down" class="section-title">Contacto:</h2>
+        <p data-aos="fade-down" class="contact__text">
+          Llámame, escríbeme un e-mail, o conecta y escríbeme en Linkedin.
+        </p>
+        <div data-aos="fade-down" class="contact__social">
           <div class="contact__email">
             <i class="bx bx-envelope icon"></i>
             <address class="contact__email-content">manutoledo231@gmail.com</address>
@@ -294,6 +298,9 @@
     </footer>
 
     <script src="./js/app.js"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
