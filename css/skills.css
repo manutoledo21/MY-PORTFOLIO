@@ -7,7 +7,8 @@
 }
 .skills-title {
   color: hsl(204, 100%, 70%);
-  font-size: 1.035rem;
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
 }
 .skills__names {
   display: flex;
