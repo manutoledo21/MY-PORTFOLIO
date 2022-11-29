@@ -21,6 +21,9 @@
 .skills__name img:hover {
   transform: scale(1.19);
 }
+.vite {
+  width: 2.8rem;
+}
 .tools {
   width: 90%;
   display: grid;
